@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We do websites</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        .title{
+            font-family: 'Roboto', sans-serif;
+            color: aqua;
+
+        }
+        body{
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            height: 200px;
+            background-size: auto;
+            background-image: url('image.jpg');
+            padding-top: 0;
+            margin-top: 0;
+        }
+        .websites{
+            color: crimson;
+            text-shadow: 0 0 20px crimson;
+        }
+        .do{
+            color: blueviolet;
+        }
+        .div {
+            display: inline-block;
+            position: relative;
+            padding: 20px;
+            border-radius: 30px;
+            background: rgb(0, 0, 0);
+            width: 200px;
+            top: 60px;
+        }
+        .div::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            padding: 3px; /* border thickness */
+            border-radius: inherit;
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-mask: linear-gradient(#000000 0 0) content-box, linear-gradient(#000000 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+        h1{
+            color: white;
+        }
+        .idea{
+            display: inline-block;
+            width: 400px;
+            height: 200px;
+            margin: auto;
+            left: 1000px;
+            position: absolute;
+            border: 5px solid;
+            padding: 20px;
+            border-radius: 30px; 
+            color: rgb(0, 0, 0);
+            background-color: white;
+        }
+        .idea::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            padding: 3px; /* border thickness */
+            border-radius: 30px;
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-mask: linear-gradient(#000000 0 0) content-box, linear-gradient(#000000 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+        .ideatwo{
+            display: inline-block;
+            width: 400px;
+            height: 200px;
+            margin: auto;
+            left: 1200px;
+            position: absolute;
+            border: 5px solid;
+            padding: 20px;
+            border-radius: 30px; 
+            color: rgb(0, 0, 0);
+            background-color: white;
+        }
+        .ideatwo::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            padding: 3px; /* border thickness */
+            border-radius: 30px;
+            background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            -webkit-mask: linear-gradient(#000000 0 0) content-box, linear-gradient(#000000 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+        }
+        .img{
+            height: 200px;
+            width: 400px;
+            border: 5px solid #00ffc8;
+            border-radius: 20px;
+        }
+        a{
+            display: block;
+            width: 100px;
+            height: 40px;
+            border: 3px solid black;
+            border-radius: 20px;
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+            background-color: white;
+            margin: 30px auto;
+            line-height: 7px;
+        }
+        a:hover{
+            animation: a 5s infinite;
+        }
+        @keyframes a {
+            0%{
+                transform: scale(1);
+            }
+            50%{
+                transform: scale(2);
+            }
+            0%{
+                transform: scale(1);
+            }
+        }
+    </style>
+
+    <div class="div"><h1 class="title">We <h1 class="do">do</h1> <h1 class="websites">websites</h1></h1></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Why texting us is a good idea?</h1>
+    <div class="idea">
+        <h2>        Fast. Secure. Colorful.</h2>
+        <p>               We have a professional designers</p>
+        <p>               We do it about 30 minutes or sometimes in 1 hour.</p>
+        <p>               We don't use cookie files. We got rid of it!</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="ideatwo">
+        <h2>        Creation of the website</h2>
+        <p>               We are a profissional company that does everything good</p>
+        <p>               Cookie? FORGET. They are taking up to 5GB of your drive.</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="idea">
+        <h2>        Support</h2>
+        <p>               We have a family-friendly support that helps you any second!</p>
+        <p>               Our support is working 24/7 so text us anytime!</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>Our examples</h2>
+    
+    <img src="img1.png" alt="" class="img">
+    <img src="img2.png" alt="" class="img">
+
+    <h2>Write us a letter</h2>
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRrlZZGhKPrQKJSHBqLdjLpxnJPWknRSfqvpJDkZkTpmZwGkrNtJBxNWWCXmWMxlsJjJPBB"><p class="write">Write</p></a>
+
+    <br>
+</body>
+</html>
